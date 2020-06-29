@@ -1,0 +1,184 @@
+.header {
+    padding: 20px;
+    text-align: left;
+    background: #2e2e2e;
+    color: white;
+    outline-color: black;
+    outline-width: 2px;
+    outline-style: solid;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #d8cfd0;
+}
+
+.highlight {
+    color: red;
+}
+
+#buttons a{
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 8px;
+    text-align: right;
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+.buttonParent {
+    display: inline-block;
+}
+
+p {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px ;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a:hover {
+    background-color: lightblue;
+}
+
+#imgContainer img {
+    height: 400;
+    width: 400;
+    border: 3px solid black;
+    float: left;
+}
+
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#banner img {
+    width: 25%;
+}
+
+#banner div {
+    width: 25%;
+    margin-top: 40px;
+}
+
+#banner h1{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 46;
+}
+
+hr {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.content {
+    height: auto;
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.content2 {
+    height: auto;
+    padding: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #b6afb0;
+    border: 1px solid black;
+}
+
+#imgContainer {
+    float: right;
+}
+
+#informationContainer {
+    display: inline-block;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border: black;
+    border-style: outset;
+    width: 400;
+    height: 400;
+}
+
+#information-header {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32;
+    margin-top: 3%;
+    text-align: center;
+}
+
+#about-me {
+    padding-top: 10;
+    text-align: left;
+}
+
+.favorite-lists {
+    background-color: #2e2e2e;
+    width: 20%;
+    display: inline-block;
+}
+
+#list {
+    font-size: 18;
+}
+
+#movies ul {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#assignments {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    float: right;
+    width: 150%;
+    border: solid 2px black;
+    font-size: 24;
+}
+
+#assignments tr {
+    text-align: center;
+    width: 33%;
+}
+
+#assignments tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#assignments td, #assignments th {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+
+#assignments tr:hover {
+    background-color: #ddd;
+}
+
+#assignments th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2e2e2e;
+    color: white;
+}
+
+#assignment-table {
+    float: right;
+}

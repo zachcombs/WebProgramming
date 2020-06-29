@@ -15,6 +15,11 @@ body {
     font-family: Arial;
     margin: 0;
     background-color: #d8cfd0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .highlight {
@@ -52,8 +57,8 @@ a:hover {
 }
 
 #imgContainer img {
-    height: 400;
-    width: 400;
+    height: 400px;
+    width: 400px;
     border: 3px solid black;
     float: left;
 }
@@ -75,7 +80,7 @@ a:hover {
 
 #banner h1{
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 46;
+    font-size: 46px;
 }
 
 hr {
@@ -94,7 +99,7 @@ hr {
 }
 
 .content2 {
-    height: auto;
+    height: auto; 
     padding: 50px;
     padding-left: 10%;
     padding-right: 10%;
@@ -106,26 +111,30 @@ hr {
     float: right;
 }
 
-#informationContainer {
+.informationContainer {
     display: inline-block;
     background-color: rgb(85, 85, 85);
     color: white;
     border: black;
     border-style: outset;
-    width: 400;
-    height: 400;
+    width: 400px;
+    height: 400px;
 }
 
-#information-header {
+.information-header {
     color: #ffffff;
     font-weight: bold;
-    font-size: 32;
+    font-size: 32px;
     margin-top: 3%;
     text-align: center;
 }
 
-#about-me {
-    padding-top: 10;
+.linkPadding {
+    padding-left: 35px;
+}
+
+.about-me {
+    padding-top: 10px;
     text-align: left;
 }
 
@@ -135,8 +144,8 @@ hr {
     display: inline-block;
 }
 
-#list {
-    font-size: 18;
+.list {
+    font-size: 18px;
 }
 
 #movies ul {
@@ -150,7 +159,7 @@ hr {
     float: right;
     width: 150%;
     border: solid 2px black;
-    font-size: 24;
+    font-size: 24px;
 }
 
 #assignments tr {
@@ -181,4 +190,12 @@ hr {
 
 #assignment-table {
     float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
 }
